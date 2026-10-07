@@ -9,6 +9,8 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+//here we iteratively add to stack ,pop off the last item from the stack if there r no further branches and also keep track of the depth until tht node.
+//so the depth array keeps track of the depth till tht node,index will increase as stack grows,corresponding stack top =depth of tht element which is in the top.
 typedef struct TreeNode NODE;
 class Solution {
 public:
