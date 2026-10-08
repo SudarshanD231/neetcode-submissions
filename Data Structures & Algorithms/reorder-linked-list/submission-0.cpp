@@ -1,3 +1,4 @@
+//my soln.
 typedef struct list{
     int data;
     struct list* next;
