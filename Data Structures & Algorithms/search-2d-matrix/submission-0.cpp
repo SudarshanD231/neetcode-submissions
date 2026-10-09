@@ -1,3 +1,5 @@
+//flatten the array and search .
+
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
