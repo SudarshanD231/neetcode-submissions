@@ -1,4 +1,4 @@
-//the only problem with this code was tht it fails when top becomes -1 inside the loop in which case s[top] accesses an invalid index.
+//the only problem with this code was tht it fails when top becomes -1 inside the loop in which case s[top] accesses an invalid index.,eg:- ()() ,()) and so on.
 bool isValid(char* str){
     char s[1000];
     int top=-1
