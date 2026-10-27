@@ -1,3 +1,4 @@
+//crct code.
 bool isValid(char* str){
     char s[1000];
     int top=-1;
