@@ -1,4 +1,5 @@
 //i had a question abt if the array had 1,2,2,4,5,6,7 as elements ,but all elements shld be inside range [1,6] inclusive,so 7 cant be there//
+//l starts from 1 bcs we dont consider the array ,we consider the actual numbers.
 int binarysearchduplicate(int* nums,numsSize){
     int l=1;
     int r=numsSize-1;
