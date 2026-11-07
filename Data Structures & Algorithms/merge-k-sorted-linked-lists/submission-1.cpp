@@ -1,4 +1,4 @@
-//my approach was merging the list one by one 
+//my approach was merging the list one by one ,takes O(n.k) time where n is the size of list and k is the number of lists.
 typedef struct node{
     int val;
     struct node* next;
